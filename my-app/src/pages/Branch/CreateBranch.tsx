@@ -194,7 +194,7 @@ export default function CreateBranch() {
         </div>
         <div className="col-md-4">
           <label className="form-label">Pin</label>
-          <input type="text" className="form-control" maxLength={6} name="pin" value={form.pin} onChange={handleChange} placeholder='Enter Pin' />
+          <input type="text" className="form-control" maxLength={6} name="pin" value={form.pin}  onBlur={handleChange} onChange={handleChange} placeholder='Enter Pin' />
         </div>
         <div className="col-md-4">
           <label className="form-label">Date</label>

@@ -67,6 +67,11 @@ export default function Nav() {
             { title: 'Add Branch', link: '/branch' },
             { title: 'View Branch', link: '/branch-view' },
           ] },
+          { title: 'Country', 
+            submenu: [
+            { title: 'Add Country', link: '/country' },
+            { title: 'View Country', link: '/country-view' },
+          ] },
         { title: 'State', 
           submenu: [
           { title: 'Add State', link: '/state' },

@@ -1,7 +1,7 @@
 // src/pages/State/CreateState.tsx
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 // import '../css/StateForm.css';
-import DataTable from '../../components/DataTable.tsx'; // Import DataTable
+// import DataTable from '../../components/DataTable.tsx'; // Import DataTable
 import { countries, states as initialStates } from '../../utilits/City'; // Import necessary data
 import { showSuccessToast, showErrorToast } from '../../components/Toast.tsx'; // Import toast components
 
@@ -17,15 +17,15 @@ interface StateFormState {
   code: string;
 }
 
-interface CountryData {
-  // Assuming countries is an array of strings
-}
+// interface CountryData {
+//   // Assuming countries is an array of strings
+// }
 
-interface InitialStateData {
-  country: string;
-  statename: string;
-  code: string;
-}
+// interface InitialStateData {
+//   country: string;
+//   statename: string;
+//   code: string;
+// }
 
 export default function StateForm() {
   const [states, setStates] = useState<StateEntry[]>(() => {

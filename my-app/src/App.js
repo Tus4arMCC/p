@@ -9,7 +9,10 @@ import Login from './pages/Login.tsx';
 import Nav from './components/temperopynav.tsx';
 import BranchForm from './pages/Branch/CreateBranch.tsx';
 import DisplayBranch from './pages/Branch/DisplayBranch.tsx';
+import CountryForm from './pages/Country/CreateCountry.tsx';
+import DisplayCountry from './pages/Country/DisplayCountry.tsx';
 import StateForm from './pages/State/CreateState.tsx';
+
 import DisplayState from './pages/State/DisplayState.tsx'
 import CityForm from './pages/City/CreateCity.tsx';
 import Displaycity from './pages/City/DisplayCity.tsx';
@@ -39,6 +42,8 @@ function App() {
         <Route path="/home"           element={<Home />} />
         <Route path="/branch"         element={<BranchForm />} />
         <Route path="/branch-view"    element={<DisplayBranch />} />
+        <Route path="/country"        element={<CountryForm />} />
+        <Route path="/country-view"   element={<DisplayCountry />} />
         <Route path="/state"          element={<StateForm />} />
         <Route path="/state-view"     element={<DisplayState />} />
         <Route path="/city"           element={<CityForm />} />

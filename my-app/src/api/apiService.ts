@@ -1,7 +1,7 @@
 import axios from 'axios';
 // import {REACT_APP_BACKEND_URL} from '../../'
 
-const API_URL = process.env.REACT_APP_BACKEND_URL;
+const API_URL = "http://localhost:5260/";
 
 if (!API_URL) {
   console.error("REACT_APP_BACKEND_URL is not defined in the environment variables.");

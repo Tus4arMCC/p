@@ -3,7 +3,7 @@ export const employees = [
     "id": 1,
     "employee_code": "EMP001",
     "first_name": "John",
-    "first_name": "A.",
+    "middle_name": "A.",
     "last_name": "Doe",
     "dob": "1985-06-15",
     "mobile1": "9876543210",
